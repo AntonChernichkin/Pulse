@@ -1,3 +1,8 @@
+@media ( max-width: 1200px )
+    .reviews-item
+        &__text
+            width: 550px
+
 @media ( max-width: 767px )
     .header
         &__logo
@@ -16,6 +21,22 @@
     .carousel
         &__inner
             width: 550px
+    .reviews-item
+        flex-direction: column
+        align-items: center
+        &__text
+            width: 500px
+    .footer
+        &__info
+            height: 175px
+            width: 320px
+        &__address
+            margin-top: 15px
+            font-size: 16px
+        &__phone
+            margin-top: 28px
+        &__social
+            margin-top: 20px
 
 @media (max-width: 575px)
     .header
@@ -71,4 +92,14 @@
         margin: 36px auto 0 auto
     .carousel
         &__inner
+            width: 300px
+    .catalog
+        &__tabs
+            flex-direction: column
+        &__tab
+            margin-bottom: 7px
+    .reviews-item
+        &__img
+            margin-bottom: 10px
+        &__text
             width: 300px
